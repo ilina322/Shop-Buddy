@@ -5,6 +5,11 @@
     android:orientation="vertical"
     android:gravity="center_horizontal">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cart fragment"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rec_grocery"
         android:layout_width="match_parent"
