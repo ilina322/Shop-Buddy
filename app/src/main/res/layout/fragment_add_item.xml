@@ -10,18 +10,18 @@
         android:text="Add item fragment"/>
 
     <EditText
-        android:id="@+id/edt_name"
+        android:id="@+id/edtName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <EditText
-        android:id="@+id/edt_price"
+        android:id="@+id/edtPrice"
         android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <NumberPicker
-        android:id="@+id/picker_quantity"
+        android:id="@+id/numQuantity"
         android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>

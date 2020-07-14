@@ -1,7 +1,5 @@
-package com.example.shopbuddy.ui.activities
+package com.example.shopbuddy.uiTest.activities
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import com.example.shopbuddy.R
 import com.example.shopbuddy.utils.Navigation
 

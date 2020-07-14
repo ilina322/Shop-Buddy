@@ -1,7 +1,6 @@
-package com.example.shopbuddy.ui.activities
+package com.example.shopbuddy.uiTest.activities
 
 import android.os.Bundle
-import android.os.PersistableBundle
 import androidx.fragment.app.FragmentActivity
 
 abstract class BaseActivity: FragmentActivity() {

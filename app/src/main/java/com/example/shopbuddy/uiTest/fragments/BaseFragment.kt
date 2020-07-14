@@ -1,4 +1,4 @@
-package com.example.shopbuddy.ui.fragments
+package com.example.shopbuddy.uiTest.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -15,7 +15,14 @@ abstract class BaseFragment: Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        var view = inflater.inflate(layoutRes, container, false)
+        val view = inflater.inflate(layoutRes, container, false)
         return view
     }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        onFragmentCreated()
+    }
+
+    abstract fun onFragmentCreated()
 }
