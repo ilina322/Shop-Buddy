@@ -1,4 +1,4 @@
-package com.example.shopbuddy.uiTest.adapters
+package com.example.shopbuddy.ui.adapters
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

@@ -1,5 +1,10 @@
 package com.example.shopbuddy.data
 
-class GroceryEntity {
-    lateinit var name : String
-}
+import androidx.room.ColumnInfo
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "groceries")
+class GroceryEntity(@PrimaryKey @ColumnInfo(name = "name") var name: String,
+                    @ColumnInfo(name = "quantity") var quantity: Int,
+                    @ColumnInfo(name = "isChecked") var isChecked: Boolean)

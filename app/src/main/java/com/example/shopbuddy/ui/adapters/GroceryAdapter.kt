@@ -1,4 +1,4 @@
-package com.example.shopbuddy.uiTest.adapters
+package com.example.shopbuddy.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -12,6 +12,7 @@ class GroceryAdapter(private val data: List<GroceryEntity>) : RecyclerView.Adapt
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GroceryHolder {
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.item_grocery, parent, false) as View
+
         return GroceryHolder(view)
 
     }

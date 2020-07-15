@@ -1,4 +1,4 @@
-package com.example.shopbuddy.uiTest.activities
+package com.example.shopbuddy.ui.activities
 
 import com.example.shopbuddy.R
 import com.example.shopbuddy.utils.Navigation

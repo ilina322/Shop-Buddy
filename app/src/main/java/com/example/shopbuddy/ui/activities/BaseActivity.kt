@@ -1,4 +1,4 @@
-package com.example.shopbuddy.uiTest.activities
+package com.example.shopbuddy.ui.activities
 
 import android.os.Bundle
 import androidx.fragment.app.FragmentActivity

@@ -3,15 +3,15 @@ package com.example.shopbuddy.utils
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.example.shopbuddy.R
-import com.example.shopbuddy.uiTest.fragments.AddGroceryFragment
-import com.example.shopbuddy.uiTest.fragments.CartFragment
+import com.example.shopbuddy.ui.fragments.AddGroceryFragment
+import com.example.shopbuddy.ui.fragments.CartFragment
 
 class Navigation {
 
     lateinit var fragmentManager: FragmentManager
 
     fun openCartFragment(){
-        var fragment = CartFragment.newInstance()
+        val fragment = CartFragment.newInstance()
         open(fragment)
     }
 

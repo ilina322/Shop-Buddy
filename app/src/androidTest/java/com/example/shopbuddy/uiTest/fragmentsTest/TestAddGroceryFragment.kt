@@ -8,7 +8,7 @@ import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.example.shopbuddy.R
-import com.example.shopbuddy.uiTest.fragments.AddGroceryFragment
+import com.example.shopbuddy.ui.fragments.AddGroceryFragment
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
