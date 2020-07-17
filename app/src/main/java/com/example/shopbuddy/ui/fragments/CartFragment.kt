@@ -1,6 +1,5 @@
 package com.example.shopbuddy.ui.fragments
 
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -9,7 +8,6 @@ import com.example.shopbuddy.R
 import com.example.shopbuddy.data.GroceryEntity
 import com.example.shopbuddy.data.GroceryViewModel
 import com.example.shopbuddy.ui.adapters.GroceryAdapter
-import com.example.shopbuddy.ui.adapters.GroceryHolder
 import com.example.shopbuddy.utils.Navigation
 import kotlinx.android.synthetic.main.fragment_cart.*
 
