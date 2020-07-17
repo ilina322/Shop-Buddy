@@ -10,12 +10,12 @@ import org.w3c.dom.Entity
 
 class GroceryViewModel(application: Application): AndroidViewModel(application)  {
 
-    private val databaseInstance = DatabaseInstance(application)
-    private lateinit var groceryRepository: GroceryRepository
-    lateinit var groceries: LiveData<List<GroceryEntity>>
+
+    private val groceryRepository: GroceryRepository
+    val groceries: LiveData<List<GroceryEntity>>
 
     init {
-        val dao = databaseInstance.db.groceryDao()
+        val dao = AppDatabase.getDatabase(application).groceryDao()
         groceryRepository = GroceryRepository(dao)
         groceries = dao.getAllItems()
     }

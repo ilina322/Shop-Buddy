@@ -7,4 +7,4 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "groceries")
 class GroceryEntity(@PrimaryKey @ColumnInfo(name = "name") var name: String,
                     @ColumnInfo(name = "quantity") var quantity: Int,
-                    @ColumnInfo(name = "isChecked") var isChecked: Boolean)
+                    @ColumnInfo(name = "price") var price: Double)
