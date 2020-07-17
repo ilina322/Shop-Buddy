@@ -1,7 +1,9 @@
 package com.example.shopbuddy.ui.fragments
 
 import com.example.shopbuddy.R
+import com.example.shopbuddy.data.GroceryEntity
 import kotlinx.android.synthetic.main.fragment_add_item.*
+import kotlinx.android.synthetic.main.fragment_cart.*
 
 class AddGroceryFragment : BaseFragment() {
 
@@ -10,6 +12,10 @@ class AddGroceryFragment : BaseFragment() {
 
     override fun onFragmentCreated() {
         setupNumberPicker()
+    }
+
+    private fun addItem(item: GroceryEntity) {
+        TODO("Not yet implemented")
     }
 
     private fun setupNumberPicker() {

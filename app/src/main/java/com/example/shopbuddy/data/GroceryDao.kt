@@ -16,7 +16,7 @@ interface GroceryDao {
     fun getAllUnchecked(): LiveData<List<GroceryEntity>>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    fun insert(grocery: GroceryEntity)
+    suspend fun insert(grocery: GroceryEntity)
 
     @Query("DELETE FROM groceries")
     fun deleteAll()
